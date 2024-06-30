@@ -8,6 +8,11 @@ This project encompasses Blogger - A Full Stack Blog App using Next.js for the f
 4) MongoDB for storing blog post data and emails
 5) Ability to create, edit, and delete blog posts in the Admin Panel
 
+## Working Demo
+https://github.com/sayalisachin/blogger/assets/101784889/9f2e2ff5-089f-41a7-949a-084ed0502a11
+
+
+
 ## Getting Started
 
 First, run the development server:
