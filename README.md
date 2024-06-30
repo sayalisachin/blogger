@@ -1,22 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Full Stack Blog App with Next.js, MongoDB, and Tailwind CSS
+This project encompasses Blogger - A Full Stack Blog App using Next.js for the frontend, MongoDB for the database, and Tailwind CSS for styling. It includes both frontend and backend implementations along with an admin panel to manage blog posts. Users can create blog posts, upload banner, subscribe to newletters, and delete blogposts. Flairs can be added to blog posts for better accesibilty.
+
+## Features
+1) Display blog posts with dynamic routing using Next.js
+2) Responsive design with Tailwind CSS
+3) RESTful APIs with Next.js API routes to handle CRUD operations
+4) MongoDB for storing blog post data and emails
+5) Ability to create, edit, and delete blog posts in the Admin Panel
 
 ## Getting Started
 
 First, run the development server:
-
-```bash
+1) Clone the repository
+   ```bash
+   git clone https://github.com/sayalisachin/blogger.git
+   cd blogger
+2) Install dependencies
+   ```bash
+   npm install
+3) Set up environment variables
+  Create a .env.local file in the root directory and add the following:
+  ```bash
+MONGODB_URI=your_mongodb_connection_string
+```
+4) Run development server
+ ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Navigate to [http://localhost:3000/admin](http://localhost:3000/admin) to access the admin dashboard.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
@@ -29,8 +42,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
